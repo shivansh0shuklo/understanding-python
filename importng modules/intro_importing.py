@@ -18,6 +18,9 @@ courses = ['history','math','physics','compsci']
 # #sys will import the path variables as a list 
 # print(sys.path)
 
+
+
+#appending module directory
 import sys
 sys.path.append("/Users/shiva/python/importng modules/mymodule")
 from my_module import find_index
