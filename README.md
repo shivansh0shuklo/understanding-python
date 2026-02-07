@@ -1,7 +1,7 @@
 # understanding-python
 contains all the files and code related to basisc and intermidiate python
 
-done with - 
+<!-- done with - 
 
 list tuples dict
 strings
@@ -23,6 +23,6 @@ pyhton envroment variable
 file operations
 exception handling 
 making a first mini project
-join with crytography using your bandit knowledge
+join with crytography using your bandit knowledge -->
 
 

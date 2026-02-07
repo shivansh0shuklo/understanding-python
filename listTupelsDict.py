@@ -70,8 +70,8 @@ courses = ['history','math','physics','computer']
 #     print(item)
 
 #enumerate ()#fr accesing the index as well as the value too innenumerate functions
-# for index, course in enumerate(courses,start = 1):
-#     print(index,course)
+for index, course in enumerate(courses,start = 1):
+    print(index,course)
 
 
 #list 
@@ -104,17 +104,17 @@ courses = ['history','math','physics','computer']
  #sets - values that are unordered and have no duplicates
  #curley brases are and order changes with each execution used to remove dublicate values and chek the vaues as well
  #you can check the values if they exists or not and sets are optimize for this
-cs_course = {'history','math','physics','math','computer'}
-art_course = {'history','math','art','design'}
-print('math' in cs_course)
-print(cs_course.intersection(art_course))#which elemnt are common 
-#they can also fnd out what values they share and dont share with otheer sets
-print(cs_course.union(art_course))
-#empty sets tuples and list 
-empty_tuple = ()
-empty_tuple = tuple()
-empty_lsit  = []
-empty_list = list()
-empty_sets =  {}
-empty_sets = set()
+# cs_course = {'history','math','physics','math','computer'}
+# art_course = {'history','math','art','design'}
+# print('math' in cs_course)
+# print(cs_course.intersection(art_course))#which elemnt are common 
+# #they can also fnd out what values they share and dont share with otheer sets
+# print(cs_course.union(art_course))
+# #empty sets tuples and list 
+# empty_tuple = ()
+# empty_tuple = tuple()
+# empty_lsit  = []
+# empty_list = list()
+# empty_sets =  {}
+# empty_sets = set()
 
