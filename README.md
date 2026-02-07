@@ -20,8 +20,8 @@ to do-
 pandas
 numpy
 pyhton envroment variable
-file operations
-exception handling 
+file operations(know how to open and close files but not fully grasped the consept yet)
+exception handling) 
 making a first mini project
 join with crytography using your bandit knowledge -->
 
