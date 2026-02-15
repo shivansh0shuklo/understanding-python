@@ -1,32 +1,62 @@
 # from mymodule.my_module import find_index as index  #if we import this way we will not have access to the test strng in the my_module as we are only importing find_index function
 
-# from mymodule.my_module import find_index as f,test as t
-courses = ['history','math','physics','compsci']
-# index = f(courses,"math")
-# print(index)
-# print(t)
-
-#to import everything we will use *
-
-import sys
-from mymodule.my_module import *#we can't tell what came from that module 
-index  = find_index(courses,"math")
+# # from mymodule.my_module import find_index as f,test as t
+# courses = ['history','math','physics','compsci']
+# # index = f(courses,"math")
 # # print(index)
-# # print(test)
+# # print(t)
+
+# #to import everything we will use *
 
 
-# #sys will import the path variables as a list 
-print(sys.path)
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# import sys library
+# from mymodule.my_module import *#we can't tell what came from that module 
+# index  = find_index(courses,"math")
+# # # print(index)
+# # # print(test)
 
-
-
+# # #sys will import the path variables as a list 
+# print(sys.path)
 
 #appending module directory
 # import sys
 # sys.path.append("/Users/shiva/python/importng modules/mymodule")
 # from my_module import find_index
 # print(find_index(courses,"math"))
+#==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+
+
+#importing random library
+# import random
+# courses = ['history','math','phyiscs', 'compsic']
+# # random_course = random.choice(courses)
+# # print(random_course)
 
 
 
+
+#importing math library
+# import math
+# rads = math.radians(90)
+# print(math.sin(rads))
+
+
+#importing datetime module
+# import datetime
+# import calendar
+# today = datetime.date.today()
+# print(today)
+# print(calendar.isleap(2020))
+
+#importing os module
+#gives access to underlying system command'
+# import os
+# # print(os.getcwd())
+# print(os.__file__)
+
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# A JOKE IN PYTHON LOL # import antigravity
 
