@@ -10,10 +10,9 @@
 # print(a.upper())
 # print(a.lower())
 
-# print(print_function('hi'))
+# print(print_function('hi')
 
-
-
+print("how are you")
 
 
 #args and kwargs usage and what are that 
