@@ -49,17 +49,28 @@ def min():
 
 
 
-##inclosing scope
+# ##inclosing scope
+# def outer():
+#     x = 'outer x '
+#     def inner():
+#         nonlocal x ##this will now make this x act like global 
+#         x = 'inner x '#if we comment out this what will happer -->
+#         print(x)##if we commented out inner x then this will print outer x this is inclosing scope
+#         ##it will look for the local scope of any enclosing function here it is outer function 
+#     inner()
+#     print(x)
+# outer()
+# ##basically if you  have func a inside b in function b it can h=check locally in function a for the value of the variable if it's own function b does'nt have it NOT VISA VERSA function a cannot check function b locally for the value
+
+
+
+x  = 'global x'
 def outer():
-    x = 'outer x '
+    x  = "outer x "
     def inner():
-        nonlocal x ##this will now make this x act like global 
-        x = 'inner x '#if we comment out this what will happer -->
-        print(x)##if we commented out inner x then this will print outer x this is inclosing scope
-        ##it will look for the local scope of any enclosing function here it is outer function 
+        print(x)
     inner()
     print(x)
 outer()
 print(x)
-
-##basically if you  have func a inside b in function b it can h=check locally in function a for the value of the variable if it's own function b does'nt have it NOT VISA VERSA function a cannot check function b locally for the value
+        
