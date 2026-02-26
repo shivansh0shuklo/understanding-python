@@ -1,0 +1,61 @@
+import os
+
+##PRINT THE DIRECTORY
+# print(dir(os))##will print all the command that will be printed out in os module
+# # print(os.getcwd())
+# os.chdir('/home/aftermeth/Workspace/')
+# print(os.getcwd())
+
+
+##MAKE A DIRECTORY
+# os.mkdir('os-demo-2')#this will not make the sud directory it will give an error
+# os.makedirs('os-demo-2/sub-dir-1')#if you want to create a directory which is few level deep it will create it but the mkdir will not make it
+  
+
+
+##REMOVE A DIRECTORY
+# os.rmdir('os-demo-2/sub-dir-1')
+# os.removedirs('os-demo-2/sub-dir-1')##for removing the sub directory as wee as the main directory 
+
+
+
+##RENAMING FILE_NAMES
+# os.rename('test_for_os.txt','test_for_os_change.txt')##first --> the name which you want to give second --> the name which you want to rename
+
+
+
+#displaying all the informations about the file
+# print(os.stat('test_for_os_change.txt'))
+# print(os.stat('test_for_os_change.txt').st_size)
+
+
+#displayig the timestamp of the changment done in file in human readable outuput
+# from datetime import datetime
+# mod_time = os.stat('test_for_os_change.txt').st_mtime
+# print(datetime.fromtimestamp(mod_time))
+
+
+
+
+##file information to go thought the entire path directory anf file and fetch the details 
+# for  dirpath,dirname, filename in os.walk('/home/aftermeth/Workspace/python/'):
+#     print('current path: ', dirpath)
+#     print('directories: ',dirname)
+#     print('files: ',filename)
+
+#     print("-"*40)
+
+
+
+##ENVIROMENT VARIABLE
+# print(os.environ.get('MY_WORKSPACE_PATH'))
+
+
+
+##
+print(os.path.split('/tem/test.txt'))
+
+##chech the existance of the path
+print(os.path.exists('/tem/fgfh'))#false
+
+
