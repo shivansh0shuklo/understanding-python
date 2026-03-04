@@ -48,7 +48,7 @@ import os
 
 
 ##ENVIROMENT VARIABLE
-# print(os.environ.get('MY_WORKSPACE_PATH'))
+# print(os.environ.get('home/workspace'))
 
 
 
