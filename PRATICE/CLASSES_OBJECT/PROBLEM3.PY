@@ -10,7 +10,7 @@ class vault:
                         f.write(individual_secrets+"\n")
             except PermissionError:
                 print("permisson denied!!")
-    def read_secrets(self):
+    def secrets(self):
         try:
             with open(self.file_name,'r') as f:
                 for lines in f:
