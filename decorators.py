@@ -10,7 +10,7 @@
 # hi_func()
 # bye_func()
 
-# a decorator is just a functions that takes other function as an argument and adds some kind of funcinality to it and return another function all of this without altering the source function which you passed as an arguement
+""" # a decorator is just a functions that takes other function as an argument and adds some kind of funcinality to it and return another function all of this without altering the source function which you passed as an arguement """
 
 
 
@@ -20,7 +20,7 @@ def decorator(original_function):
         return original_function(*a,**k)
     return inner_func
 
-##defining decorators as class -->
+""" ##defining decorators as class --> """
 # class decorator(object):
 #     def __init__(self,original_function):
 #         self.original_function = ori           ginal_function

@@ -1,4 +1,4 @@
-##yield is used to crete a generator 
+""" ##YIELD IS USED TO CRETE A GENERATOR """ 
 import random
 import datetime
 
@@ -24,16 +24,16 @@ import datetime
 # print(next(my_nums))
 
 
-#using loop
+"""#using loop """
 # for num in my_nums:
 #     print(num)
 
 
-#by converting generator into list first
+""" #by converting generator into list first """
 # print(list(my_nums))
 
 
-#list comprehensioons## will lose the advantage of memory
+""" #list comprehensioons## will lose the advantage of memory """
 # my_nums = (x*x for x in [1,2,3,4,5])
 # print(list(my_nums))
 

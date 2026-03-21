@@ -1,4 +1,4 @@
-# ## duck typing and easier to ask for forgiveness than permission (EAFP)
+""" duck typing and easier to ask for forgiveness than permission (EAFP) """
 # class duck:
 #     def quack(self):
 #         print('quack,quack')

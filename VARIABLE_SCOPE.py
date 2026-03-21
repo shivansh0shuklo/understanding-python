@@ -6,7 +6,7 @@ LOCAL , ENCLOSING, GLOBAL, BUILT-IN
 '''
 
 
-##global and local scope
+""" ##global and local scope """
 
 # x = 'GOBAL X'
 # def test():
@@ -19,8 +19,8 @@ LOCAL , ENCLOSING, GLOBAL, BUILT-IN
 
 # x  = "GLOBAL X"
 # def test():
-#     global x #will tell taht wwe are working with the global x variable 
-#     x =  "local x"#now it will change the global x
+#     global x"""  #WILL TELL TAHT WWE ARE WORKING WITH THE GLOBAL X VARIABLE 
+#     x =  "local x"#NOW IT WILL CHANGE THE GLOBAL X 
 #     print(x)
 # test()
 # print(x)
@@ -35,7 +35,7 @@ LOCAL , ENCLOSING, GLOBAL, BUILT-IN
 
 
 
-##importing bultin functions
+""" ##importing bultin functions """
 ##min()
 # m = min([2,4,5,9,7,8])
 # print(m)

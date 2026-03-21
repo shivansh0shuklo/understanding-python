@@ -1,5 +1,6 @@
-#hashing is ( can be f4567hdjduFG ) the purpose of hashing is to create a digital fingerprint
-#hashes are not reversible 
+""" #hashing is ( can be f4567hdjduFG ) the purpose of hashing is to create a digital fingerprint """
+""" #hashes are not reversible  """
+
 import hashlib
 
 
