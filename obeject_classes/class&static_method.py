@@ -57,4 +57,4 @@ emp_2 = employee('shivansh', 'shukla' ,70000)
 
 my_date = datetime.date(2016,7,11)
 print(employee.is_workday(my_date))
-
+print(employee.apply_raise(emp_1))

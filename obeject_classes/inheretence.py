@@ -78,5 +78,5 @@ print(isinstance(mgr_1.first,employee))
 
 """ ##ISSUBCLASS(CHILD_CLASS,PARENT_CLASS) """
 
-print(isinstance(manager,employee))##manager is a slass not a abject 
+print(isinstance(manager,employee))##manager is a class not a abject 
 print(issubclass(manager,employee))##here IT IS JUST A SUB CLASS
