@@ -25,4 +25,8 @@ exception handling)
 making a first mini project
 join with crytography using your bandit knowledge -->
 
+numpy done
+server done 
+json done 
+and a mini project building a clock done
 
