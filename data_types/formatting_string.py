@@ -10,10 +10,10 @@ person = {'name':'jane','age':23}
 # print(sentence)
 
 
-# tag = 'hi'
-# text = 'this is a headline'
-# sentence = '<{0}>{1}</{0}>'.format(tag,text)
-# print(sentence)
+tag = 'hi'
+text = 'this is a headline'
+sentence = '<{0}>{1}</{0}>'.format(tag,text)
+print(sentence)
 
 
 
@@ -35,7 +35,7 @@ person = {'name':'jane','age':23}
 # sentence = 'name is {name} age is {age} years old'.format(name = 'sujan',age='45')
 # print(sentence)
 
-
+                           
 
 
 # #unpacking the dictionary into formate and it willl the keyword to use 

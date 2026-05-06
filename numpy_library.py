@@ -32,15 +32,15 @@ import numpy as np
 
 
 """ ##SLICING """
-# array = np.array([[1,2,3,4],
-#                   [5,6,7,8],
-#                   [9,10,11,12],
-#                   [13,14,15,16]])
+array = np.array([[1,2,3,4],
+                  [5,6,7,8],
+                  [9,10,11,12],
+                  [13,14,15,16]])
 #array[start:end:step]#ending index is exclusive 
 # print(array[::-2])#row selection
 # print(array[:,0:1])#selecting all rows and then selecting coloum 0
 # print(array[:,1::2])
-# print(array[2:,2:])
+print(array[2:,2:])
 
 
 
@@ -82,8 +82,8 @@ array =  np.array([1,2,3])
 
 """ ##comparison operator  """
 
-# scores = np.array([91,100,55,73,82,64])
-# print(scores == 100)
+scores = np.array([91,100,55,73,82,64])
+print(scores == 100)
 # print(scores>=60)
 # scores[scores<60] = 0
 # print(scores)
@@ -109,6 +109,6 @@ array =  np.array([1,2,3])
 
 # print(f'\n{array1} * \n{array2} = \n{array1*array2}')
 
-array1  = np.array([[1,2,3,4,5,6,7,8,9,10]])
-array2 = np.array([[1],[2],[3],[4],[5],[7],[8],[9],[10]])
-print(array1*array2)
+# array1  = np.array([[1,2,3,4,5,6,7,8,9,10]])
+# array2 = np.array([[1],[2],[3],[4],[5],[7],[8],[9],[10]])
+# print(array1*array2)

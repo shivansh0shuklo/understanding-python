@@ -1,0 +1,15 @@
+[
+    {
+        "name":"big coperation",
+        "numberofemployee":10000,
+        "ceo":"sahil",
+        "rating":3.6
+
+    },
+    {
+        "name":"small company",
+        "numberofemployee":3,
+        "ceo":null,
+        "rating":4.3
+    }
+]
